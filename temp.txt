@@ -1,0 +1,15 @@
+#RESTful web services
+
+Social Media Application
+
+User -> Posts   [One to Many]
+
+1. Retrieve all users       - GET   /users
+2. Create a user            - POST  /users
+3. Retrieve one user        - GET   /users/{id}
+4. Delete a user            - DELETE    /users/{id}
+
+5. Retrieve all post for a user     - GET   /users/{id}/posts
+6. Create a post for a user         - POST  /users/{id}/posts
+7. Retrieve details of a post       - GET   /users/{id}/posts/{post_id}
+7. Delete a post for a user         - DELETE    /users/{id}/posts/{post_id}
